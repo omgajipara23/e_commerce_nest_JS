@@ -1,8 +1,10 @@
 import { Module } from '@nestjs/common';
-import { BookModule } from './book/book.module';
+import { UserModule } from './user/user.module';
+import { PostModule } from './post/post.module';
+import { IamModule } from './iam/iam.module';
 
 @Module({
-  imports: [BookModule],
+  imports: [UserModule, PostModule, IamModule],
   controllers: [],
   providers: [],
 })

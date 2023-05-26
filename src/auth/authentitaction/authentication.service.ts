@@ -1,5 +1,5 @@
 import { HashingService } from '../hashing/hashing.service';
-import { PrismaService } from './../../prisma_crud/prisma_crud.servise';
+import { PrismaService } from '../../prisma_crud/prisma_crud.servise';
 import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { SignupDto } from './dto/signup.dto';
 import { SigninDto } from './dto/signin.dto';

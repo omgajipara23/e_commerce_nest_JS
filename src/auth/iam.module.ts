@@ -16,4 +16,4 @@ import { PrismaService } from 'src/prisma_crud/prisma_crud.servise';
   ],
   controllers: [AuthentitactionController],
 })
-export class IamModule {}
+export class AuthModule {}
